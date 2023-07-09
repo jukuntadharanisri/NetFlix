@@ -1,0 +1,95 @@
+<html>
+<head>
+<title> Netflix India - Watch TV Shows Online, Watch Movies Online </TITLE>
+<style>
+body{  background-image:url("netflix.jpg");
+	background-repeat:no-repeat;
+	background-position:top;
+	background-attachment:scroll;
+	background-size: 1400px 700px;
+	}
+.navbar{
+	display:flex;
+	justify-content: right;
+	align-items: right;
+	position: sticky;
+	top: 0;
+}
+
+.navbar ul{
+	display:flex;
+	list-style: none;
+	margin:20px 0px;
+}
+.navbar ul li{
+	font-family:century;
+	font-size:1.1rem;
+	font-weight:bold;}
+.navbar ul li a{
+	text-decoration:none;
+	color:white;
+	padding: 8px 25px;
+	transition:all .6s ease;
+}
+h2{ 
+	text-align:center; 
+	color:white;
+}
+h1{    text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center; 
+	color:white;
+}
+
+.button{
+	margin: auto;
+	display:flex;
+	justify-content: center;
+	padding:17px 35px;
+	border:none;
+	background-color:red;
+	color:white;
+	text-align:center;
+	
+	font-size:20px;
+	border-radius:10%;
+	}
+.button:hover{background-color:black; color:white}
+.select{padding:10px 25px;
+	border:2px solid white;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:13px;
+	border-radius:8%;
+}
+.img{
+	display: flex;
+	width:15%; 
+	height:8%;
+	align-items: center;
+}
+
+</style>
+</head>
+<body>
+<div>
+<nav class="navbar">
+<img src="net.png" class="img">
+<ul>
+		<li>
+			<select class="select"><option>English</option>
+			<option>Hindi</option>
+			<option>Telugu</option>
+			</select> </li>
+		<li><button class="button" >Sign Up</button></li>
+	</ul>
+</nav> 
+
+<h2>Welcome back!</h2>
+<h1><b> Unlimited movies, TV shows and more <b> </h1>
+<h2>Watch anywhere. Cancel anytime. </h2><br> <br>
+<button class="button">Finished Sign Up</button>
+</body>
+</html>
